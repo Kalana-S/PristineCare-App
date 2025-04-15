@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_border_design"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_margin="5dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/customerNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#01FFF2" />
+
+    <TextView
+        android:id="@+id/ratingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating"
+        android:textSize="14sp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/reviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review Text"
+        android:textSize="14sp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

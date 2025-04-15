@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_border_design"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_margin="5dp"
+    android:elevation="2dp">
+
+    <ImageView
+        android:id="@+id/houseImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textRooms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/textBaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textFloor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textClean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textCustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textCustomerEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/textTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp" />
+
+    <Spinner
+        android:id="@+id/statusSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#01FFF2"/>
+
+    <Button
+        android:id="@+id/acceptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:backgroundTint="#01FFF2"
+        android:textSize="16dp"
+        android:textColor="#333"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirebaseApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.customer.BillPriceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cleaner.ReviewDisplayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.ReviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.AcceptedJobListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cleaner.BillingJobListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.BillingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.CustomerHouseListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.AddHouseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.cleaner.CleanerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.CleanerRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.CleanerLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.customer.CustomerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.CustomerLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.CustomerRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
