@@ -1,6 +1,6 @@
 # 🧼 PristineCare – House Cleaning Android Application
 
-**PristineCare** is a feature-rich Android application built with a modern UI and Firebase backend. It allows customers to request professional house cleaning services and enables cleaners to manage and accept cleaning jobs. The system supports authentication, session management, billing, job tracking, and reviews.
+**PristineCare** is a feature-rich Android application built with a modern UI and **Firebase** backend. It allows customers to request professional house cleaning services and enables cleaners to manage and accept cleaning jobs. The system supports authentication, session management, billing, job tracking, and reviews.
 
 ---
 
